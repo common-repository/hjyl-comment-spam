@@ -1,0 +1,42 @@
+body #subpcodes {
+	background:rgba(255, 255, 255, 0.8);
+	border: 1px solid #CAE1EE;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+	height: 25px;
+	line-height: 20px;
+	margin:10px 10px 0;
+	padding: 5px 10px;
+	width: 60px;
+	font-size: 20px;
+	font-family: Verdana;
+	display:inline-block;
+	box-sizing:content-box;
+	vertical-align: bottom;
+	
+}
+body #pcodes {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Verdana;
+}
+body #hjyl_anti {
+	background:rgba(255, 255, 255, 0.4);
+	height: 60px;
+	line-height: 32px;
+	padding: 0 10px;
+	width:266px;
+	margin:15px 0;
+	box-sizing:content-box;
+	font-size: 16px;
+}
+body #hjyl_anti:before, #hjyl_anti:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+body #hjyl_anti label{
+	display:inline-block;
+	letter-spacing:normal;
+	font-size: 16px;
+	font-weight:bold;
+}
